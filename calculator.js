@@ -1,8 +1,13 @@
+
+
 /*
   Create a function that multiplies two numbers
   passed in as arguments. Return the product.
  */
-
+function multiply(input1,input2) {
+  input1 * input2;
+  return;
+}
 
 /*
   Create a function that adds two numbers
