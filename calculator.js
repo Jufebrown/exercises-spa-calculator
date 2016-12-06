@@ -1,10 +1,10 @@
 var answer;
 var input1 = document.querySelector("input1");
 var input2 = document.querySelector("input2");
-var addButton = document.querySelector("addButton");
-var subButton = document.querySelector("subButton");
-var multButton = document.querySelector("multButton");
-var divButton = document.querySelector("divButton");
+var addButton = document.querySelector(".addButton");
+var subButton = document.querySelector(".subButton");
+var multButton = document.querySelector(".multButton");
+var divButton = document.querySelector(".divButton");
 
 
 /*
@@ -38,7 +38,11 @@ function subtraction(input1,input2) {
   passed in as arguments. Return the quotient.
  */
 function division(input1,input2) {
-  answer = input1 / input2;
+  if (input2 === 0){
+    alert("Zero Divide!!!!")
+  } else {
+    answer = input1 / input2;
+  }
 }
 
 
@@ -50,7 +54,7 @@ function division(input1,input2) {
 
   Return the value of the operation.
  */
-function operation(input1,input2,oper) {
+function operation(input1,input2,oper()) {
   var answer = input1, input2;
   return answer;
 }
