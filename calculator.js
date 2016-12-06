@@ -1,4 +1,11 @@
 var answer;
+var input1 = document.querySelector("input1");
+var input2 = document.querySelector("input2");
+var addButton = document.querySelector("addButton");
+var subButton = document.querySelector("subButton");
+var multButton = document.querySelector("multButton");
+var divButton = document.querySelector("divButton");
+
 
 /*
   Create a function that multiplies two numbers
