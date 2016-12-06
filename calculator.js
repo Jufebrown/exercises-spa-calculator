@@ -13,7 +13,6 @@ function multiply(input1,input2) {
   Create a function that adds two numbers
   passed in as arguments. Return the sum.
  */
-
  function addition(input1,input2) {
   input1 + input2;
   return;
@@ -24,6 +23,10 @@ function multiply(input1,input2) {
   Create a function that subtracts two numbers
   passed in as arguments. Return the difference.
  */
+function subtraction(input1,input2) {
+  input1 - input2;
+  return;
+}
 
 
 /*
