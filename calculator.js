@@ -33,7 +33,10 @@ function subtraction(input1,input2) {
   Create a function that divides two numbers
   passed in as arguments. Return the quotient.
  */
-
+function division(input1,input2) {
+  input1 / input2;
+  return;
+}
 
 
 /*
