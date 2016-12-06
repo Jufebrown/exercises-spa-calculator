@@ -1,12 +1,11 @@
-
+var answer;
 
 /*
   Create a function that multiplies two numbers
   passed in as arguments. Return the product.
  */
 function multiply(input1,input2) {
-  input1 * input2;
-  return answer;
+  answer = input1 * input2;;
 }
 
 /*
@@ -14,8 +13,7 @@ function multiply(input1,input2) {
   passed in as arguments. Return the sum.
  */
  function addition(input1,input2) {
-  var answer = input1 + input2;
-  return answer;
+  answer = input1 + input2;
  }
 
 
@@ -24,8 +22,7 @@ function multiply(input1,input2) {
   passed in as arguments. Return the difference.
  */
 function subtraction(input1,input2) {
-  var answer = input1 - input2;
-  return answer;
+  answer = input1 - input2;
 }
 
 
@@ -34,8 +31,7 @@ function subtraction(input1,input2) {
   passed in as arguments. Return the quotient.
  */
 function division(input1,input2) {
-  var answer = input1 / input2;
-  return answer;
+  answer = input1 / input2;
 }
 
 
@@ -48,6 +44,6 @@ function division(input1,input2) {
   Return the value of the operation.
  */
 function operation(input1,input2,oper) {
-  var answer = input1 oper input2;
+  var answer = input1, input2;
   return answer;
 }
