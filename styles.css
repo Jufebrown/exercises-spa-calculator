@@ -1,0 +1,21 @@
+form {
+  width: 60%;
+  height: 200px;
+  border-radius: 15px;
+  background: lightgray;
+  margin: 25px auto 25px auto;
+  padding: 15px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.output {
+  margin-top: 50px;
+}
+
+.outputBox {
+  width: 80%;
+  height: 3em;
+}
