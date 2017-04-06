@@ -1,9 +1,9 @@
-var output = document.querySelector(".outputBox");
+const output = document.querySelector(".outputBox");
 /*
   Create a function that multiplies two numbers
   passed in as arguments. Return the product.
  */
-function multiply(input1,input2) {
+const multiply = (input1,input2) => {
   var answer = input1 * input2;
   output.value = answer;
 }
@@ -12,7 +12,7 @@ function multiply(input1,input2) {
   Create a function that adds two numbers
   passed in as arguments. Return the sum.
  */
- function addition(input1,input2) {
+ const addition = (input1,input2) => {
   var answer = +input1 + +input2;
   output.value = answer;
  }
@@ -22,7 +22,7 @@ function multiply(input1,input2) {
   Create a function that subtracts two numbers
   passed in as arguments. Return the difference.
  */
-function subtraction(input1,input2) {
+const subtraction = (input1,input2) => {
   var answer = input1 - input2;
   output.value = answer;
 }
@@ -32,7 +32,7 @@ function subtraction(input1,input2) {
   Create a function that divides two numbers
   passed in as arguments. Return the quotient.
  */
-function division(input1,input2) {
+const division = (input1,input2) => {
   if (+input2 === 0){
     alert("Zero Divide!!!!");
   } else {
